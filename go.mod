@@ -29,7 +29,7 @@ require (
 	github.com/hashicorp/go-hclog v1.5.0
 	github.com/huaweicloud/huaweicloud-sdk-go-obs v3.21.12+incompatible
 	github.com/hungys/go-lz4 v0.0.0-20170805124057-19ff7f07f099
-	github.com/jackc/pgx/v5 v5.3.1
+	github.com/jackc/pgx/v5 v5.5.4
 	github.com/jcmturner/gokrb5/v8 v8.4.4
 	github.com/juicedata/godaemon v0.0.0-20210629045518-3da5144a127d
 	github.com/juicedata/gogfapi v0.0.0-20230626071140-fc28e5537825
@@ -67,18 +67,20 @@ require (
 	go.etcd.io/etcd/client/v3 v3.5.9
 	go.uber.org/automaxprocs v1.5.2
 	go.uber.org/zap v1.20.0
-	golang.org/x/crypto v0.6.0
-	golang.org/x/net v0.9.0
+	golang.org/x/crypto v0.17.0
+	golang.org/x/net v0.10.0
 	golang.org/x/oauth2 v0.7.0
 	golang.org/x/sync v0.1.0
-	golang.org/x/sys v0.7.0
-	golang.org/x/term v0.7.0
-	golang.org/x/text v0.9.0
+	golang.org/x/sys v0.15.0
+	golang.org/x/term v0.15.0
+	golang.org/x/text v0.14.0
 	google.golang.org/api v0.94.0
 	google.golang.org/protobuf v1.30.0
 	gopkg.in/kothar/go-backblaze.v0 v0.0.0-20210124194846-35409b867216
 	xorm.io/xorm v1.0.7
 )
+
+require github.com/jackc/puddle/v2 v2.2.1 // indirect
 
 require (
 	cloud.google.com/go v0.102.1 // indirect
